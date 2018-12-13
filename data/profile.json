@@ -1,0 +1,492 @@
+{
+    "vod_profile": {
+        "profile_name": "VodAutoTest",
+        "profile_type": "VOD",
+        "is_default": false,
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "is_thumbnail_out": true,
+        "is_facialDetect_out": false,
+        "transcode_video_info": {
+            "codec": "H264",
+            "bitrate": 64,
+            "height": 161,
+            "width": 240
+        },
+        "transcode_audio_info": {
+            "codec": "AAC-LC",
+            "bitrate": 64,
+            "sampling_rate": 44100,
+            "channel_num": 2
+        },
+        "is_use": true
+    },
+    "vod_profile_no_name": {
+        "profile_type": "VOD",
+        "is_default": false,
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "is_thumbnail_out": true,
+        "is_facialDetect_out": true,
+        "transcode_video_info": {
+            "codec": "H264",
+            "bitrate": 64,
+            "height": 161,
+            "width": 240
+        },
+        "transcode_audio_info": {
+            "codec": "AAC-LC",
+            "bitrate": 64,
+            "sampling_rate": 44100,
+            "channel_num": 2
+        },
+        "is_use": true
+    },
+    "vod_profile2": {
+        "profile_name": "VodAutoTest2",
+        "profile_type": "VOD",
+        "is_default": false,
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "is_thumbnail_out": true,
+        "is_facialDetect_out": false,
+        "transcode_video_info": {
+            "codec": "H264",
+            "bitrate": 64,
+            "height": 160,
+            "width": 240
+        },
+        "transcode_audio_info": {
+            "codec": "AAC-LC",
+            "bitrate": 64,
+            "sampling_rate": 44100,
+            "channel_num": 2
+        },
+        "is_use": true
+    },
+    "vod_profile3": {
+        "profile_name": "noimage",
+        "profile_type": "VOD",
+        "is_default": false,
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "is_thumbnail_out": false,
+        "is_facialDetect_out": false,
+        "transcode_video_info": {
+            "codec": "H264",
+            "bitrate": 64,
+            "height": 160,
+            "width": 240
+        },
+        "transcode_audio_info": {
+            "codec": "AAC-LC",
+            "bitrate": 64,
+            "sampling_rate": 44100,
+            "channel_num": 2
+        },
+        "is_use": true
+    },
+    "h265_vod_profile": {
+        "profile_name": "newvodprofile",
+        "profile_type": "VOD",
+        "is_default": false,
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "is_thumbnail_out": false,
+        "is_facialDetect_out": false,
+        "transcode_video_info": {
+            "codec": "H265",
+            "bitrate": 64,
+            "height": 160,
+            "width": 240
+        },
+        "transcode_audio_info": {
+            "codec": "AAC-LC",
+            "bitrate": 64,
+            "sampling_rate": 44100,
+            "channel_num": 2
+        },
+        "is_use": true
+    },
+    "live_profile": {
+        "profile_name": "LiveAutoTest",
+        "profile_type": "LIVE",
+        "is_default": false,
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "is_thumbnail_out": true,
+        "is_facialDetect_out": false,
+        "transcode_video_info": {
+            "codec": "H264",
+            "bitrate": 64,
+            "height": 160,
+            "width": 240
+        },
+        "transcode_audio_info": {
+            "codec": "AAC-LC",
+            "bitrate": 64,
+            "sampling_rate": 44100,
+            "channel_num": 2
+        },
+        "is_use": true
+    },
+    "live_profile_h265": {
+        "profile_name": "herliuwu",
+        "profile_type": "LIVE",
+        "is_default": false,
+        "is_use": true,
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "transcode_video_info": {
+            "codec": "H265",
+            "bitrate": 64,
+            "height": 160,
+            "width": 240
+        },
+        "is_facialDetect_out": false,
+        "is_thumbnail_out": true,
+        "transcode_audio_info": {
+            "codec": "AAC-LC",
+            "bitrate": 64,
+            "sampling_rate": 44100,
+            "channel_num": 2
+        }
+    },
+    "no_transcode_live_profile": {
+        "profile_name": "noTranscode",
+        "profile_type": "LIVE",
+        "is_default": false,
+        "is_use": true,
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": false,
+        "is_facialDetect_out": false,
+        "is_thumbnail_out": false
+    },
+    "live_profile_multiple_bitrate": {
+        "profile_name": "liveArrayProfile",
+        "profile_type": "LIVE",
+        "is_default": false,
+        "is_user": true,
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "transcode_video_info": [
+          {
+            "codec": "H264",
+            "bitrate": 960,
+            "height": 360,
+            "width": 640
+          },
+          {
+            "codec": "H264",
+            "bitrate": 480,
+            "height": 180,
+            "width": 320
+          },
+          {
+            "codec": "H264",
+            "bitrate": 240,
+            "height": 90,
+            "width": 160
+          }
+        ],
+        "is_facialDetect_out": false,
+        "is_thumbnail_out": true,
+        "transcode_audio_info": {
+          "codec": "AAC-LC",
+          "bitrate": 256,
+          "sampling_rate": 44100,
+          "channel_num": 2
+        }
+      },
+    "vod_profile_multiple_bitrate": {
+        "profile_name": "vodArrayProfile",
+        "profile_type": "VOD",
+        "is_default": false,
+        "is_user": true,
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "transcode_video_info": [
+          {
+            "codec": "H264",
+            "bitrate": 960,
+            "height": 360,
+            "width": 640
+          },
+          {
+            "codec": "H264",
+            "bitrate": 480,
+            "height": 180,
+            "width": 320
+          },
+          {
+            "codec": "H264",
+            "bitrate": 240,
+            "height": 90,
+            "width": 160
+          }
+        ],
+        "is_facialDetect_out": false,
+        "is_thumbnail_out": true,
+        "transcode_audio_info": {
+          "codec": "AAC-LC",
+          "bitrate": 256,
+          "sampling_rate": 44100,
+          "channel_num": 2
+        }
+      },
+    "vod_profile_update1": {
+        "profile_name": "qaUpdate",
+        "profile_type": 0,
+        "is_default": false,
+        "is_use": true,
+        "out_type": 0,
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "transcode_video_info": {
+            "codec": "H264",
+            "bitrate": 1000000,
+            "height": 360,
+            "width": 480
+        },
+        "transcode_audio_info": {
+            "codec": "AAC-LC",
+            "bitrate": 256000,
+            "sampling_rate": 48000,
+            "channel_num": 2
+        }
+    },
+    "vod_profile_no_audio_tr": {
+        "profile_name": "VodAutoTestOnlyVideo",
+        "profile_type": "VOD",
+        "is_default": false,
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "is_thumbnail_out": true,
+        "is_facialDetect_out": true,
+        "transcode_video_info": {
+            "codec": "H264",
+            "bitrate": 64,
+            "height": 161,
+            "width": 240
+        },
+        "is_use": true
+    },
+    "vod_profile_no_video_tr": {
+        "profile_name": "VodAutoTestOnlyAudio",
+        "profile_type": "VOD",
+        "is_default": false,
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "is_thumbnail_out": true,
+        "is_facialDetect_out": true,
+        "transcode_audio_info": {
+            "codec": "AAC-LC",
+            "bitrate": 64,
+            "sampling_rate": 44100,
+            "channel_num": 2
+        },
+        "is_use": true
+    },
+    "vod_profile_update": {
+        "_id": "5b18d60bce06000ff0d010ab",
+        "profile_name": "demovodtestupdate",
+        "profile_type": "VOD",
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "is_default": false,
+        "is_use": true,
+        "transcode_video_info": {
+            "codec": "H264",
+            "bitrate": 2000,
+            "height": 720,
+            "width": 960
+        },
+        "transcode_audio_info": {
+            "codec": "AAC-LC",
+            "bitrate": 256,
+            "sampling_rate": 48000,
+            "channel_num": 2
+        },
+        "is_thumbnail_out": false,
+        "is_facialDetect_out": false
+    },
+    "vod_profile_update_no_name": {
+        "_id": "5b18d60bce06000ff0d010ab",
+        "profile_type": "VOD",
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "is_default": false,
+        "is_use": true,
+        "transcode_video_info": {
+            "codec": "H264",
+            "bitrate": 2000,
+            "height": 720,
+            "width": 960
+        },
+        "transcode_audio_info": {
+            "codec": "AAC-LC",
+            "bitrate": 256,
+            "sampling_rate": 48000,
+            "channel_num": 2
+        },
+        "is_thumbnail_out": false,
+        "is_facialDetect_out": false
+    },
+    "vod_profile_update_no_tr_au": {
+        "_id": "5b18d60bce06000ff0d010ab",
+        "profile_name": "demovodtestupdate",
+        "profile_type": "VOD",
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "is_default": false,
+        "is_use": true,
+        "transcode_video_info": {
+            "codec": "H264",
+            "bitrate": 2000,
+            "height": 720,
+            "width": 960
+        },
+        "is_thumbnail_out": false,
+        "is_facialDetect_out": false
+    },
+    "vod_profile_update_no_tr_vi": {
+        "_id": "5b18d60bce06000ff0d010ab",
+        "profile_name": "demovodtestupdate",
+        "profile_type": "VOD",
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "is_default": false,
+        "is_use": true,
+        "transcode_audio_info": {
+            "codec": "AAC-LC",
+            "bitrate": 256,
+            "sampling_rate": 48000,
+            "channel_num": 2
+        },
+        "is_thumbnail_out": false,
+        "is_facialDetect_out": false
+    },
+    "live_auto_profile": {
+        "profile_name": "nweLiveProfile",
+        "profile_type": "LIVE",
+        "is_default": false,
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "is_thumbnail_out": true,
+        "is_facialDetect_out": false,
+        "transcode_video_info": {
+            "codec": "H264",
+            "bitrate": 64,
+            "height": 160,
+            "width": 240
+        },
+        "transcode_audio_info": {
+            "codec": "AAC-LC",
+            "bitrate": 64,
+            "sampling_rate": 44100,
+            "channel_num": 2
+        },
+        "is_use": true
+    },
+    "live_profile_onlyVideo": {
+        "profile_name": "onlyVideoLiveProfile",
+        "profile_type": "LIVE",
+        "is_default": false,
+        "is_video_out": true,
+        "is_audio_out": false,
+        "is_transcode": true,
+        "is_thumbnail_out": true,
+        "is_facialDetect_out": true,
+        "transcode_video_info": {
+            "codec": "H264",
+            "bitrate": 64,
+            "height": 160,
+            "width": 240
+        },
+        "transcode_audio_info": {
+            "codec": "AAC-LC",
+            "bitrate": 64,
+            "sampling_rate": 44100,
+            "channel_num": 2
+        },
+        "is_use": true
+    },
+    "codec_invalid_profile": {
+        "profile_name": "invalidProfile",
+        "profile_type": "LIVE",
+        "is_default": false,
+        "is_user": true,
+        "is_video_out": true,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "transcode_video_info": [
+          {
+            "codec": "H.264",
+            "bitrate": 960,
+            "height": 360,
+            "width": 640
+          },
+          {
+            "codec": "H264",
+            "bitrate": 480,
+            "height": 180,
+            "width": 320
+          },
+          {
+            "codec": "H264",
+            "bitrate": 240,
+            "height": 90,
+            "width": 160
+          }
+        ],
+        "is_facialDetect_out": true,
+        "is_thumbnail_out": true,
+        "transcode_audio_info": {
+          "codec": "AAC-LC",
+          "bitrate": 256,
+          "sampling_rate": 44100,
+          "channel_num": 2
+        }
+      },
+    "live_profile_onlyAudio": {
+        "profile_name": "onlyAudioLiveProfile",
+        "profile_type": "LIVE",
+        "is_default": false,
+        "is_video_out": false,
+        "is_audio_out": true,
+        "is_transcode": true,
+        "is_thumbnail_out": true,
+        "is_facialDetect_out": true,
+        "transcode_video_info": {
+            "codec": "H264",
+            "bitrate": 64,
+            "height": 160,
+            "width": 240
+        },
+        "transcode_audio_info": {
+            "codec": "AAC-LC",
+            "bitrate": 64,
+            "sampling_rate": 44100,
+            "channel_num": 2
+        },
+        "is_use": true
+    }
+}

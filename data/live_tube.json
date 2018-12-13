@@ -1,0 +1,235 @@
+{
+	"live_tube":{
+		"source_type": "RTMP",
+		"channel_profile": "live_tube",
+	  "out_type": {
+	    "hls_out": [
+	      {
+	        "isVod": false,
+	        "legacy_hls_support": true
+	      },
+	      {
+	        "isVod": true,
+	        "legacy_hls_support": false
+	      }
+	      ],
+	    "rtmp_out": 1,
+	    "mp4_out": [
+	      {
+	        "isVod": true
+	      }
+	      ]
+	  }
+	},
+	
+	"autorestart_live_tube":{
+		"source_type": "RTMP",
+		"channel_profile": "autorestart_live_tube",
+	  "out_type": {
+	    "hls_out": [
+	      {
+	        "isVod": false,
+	        "legacy_hls_support": true
+	      },
+	      {
+	        "isVod": true,
+	        "legacy_hls_support": false
+	      }
+	      ],
+	    "rtmp_out": 1,
+	    "mp4_out": [
+	      {
+	        "isVod": true
+	      }
+	      ]
+	  },
+	  "autorestart": true
+	},
+
+	"non_autorestart_live_tube":{
+		"source_type": "RTMP",
+		"channel_profile": "ono_autorestart_live_tube",
+	  "out_type": {
+	    "hls_out": [
+	      {
+	        "isVod": false,
+	        "legacy_hls_support": true
+	      },
+	      {
+	        "isVod": true,
+	        "legacy_hls_support": false
+	      }
+	      ],
+	    "rtmp_out": 1,
+	    "mp4_out": [
+	      {
+	        "isVod": true
+	      }
+	      ]
+	  },
+	  "autorestart": false
+	},
+
+	"autorestart_live_tube_1":{
+		"source_type": "RTMP",
+		"channel_profile": "autorestart_live_tube_1",
+	  "out_type": {
+	    "hls_out": [
+	      {
+	        "isVod": false,
+	        "legacy_hls_support": true
+	      },
+	      {
+	        "isVod": true,
+	        "legacy_hls_support": false
+	      }
+	      ],
+	    "rtmp_out": 1,
+	    "mp4_out": [
+	      {
+	        "isVod": false
+	      },
+	      {
+	        "isVod": true
+	      }
+	      ]
+	  },
+	  "autorestart": true
+	},
+	
+	"not_autorestart_live_tube":{
+		"source_type": "RTMP",
+		"channel_profile": "not_autorestart_live_tube",
+	  "out_type": {
+	    "hls_out": [
+	      {
+	        "isVod": false,
+	        "legacy_hls_support": true
+	      },
+	      {
+	        "isVod": true,
+	        "legacy_hls_support": false
+	      }
+	      ],
+	    "rtmp_out": 1,
+	    "mp4_out": [
+	      {
+	        "isVod": false
+	      },
+	      {
+	        "isVod": true
+	      }
+	      ]
+	  },
+	  "autorestart": false
+	},
+	
+	"only_stream_auto_live_tube":{
+		"source_type": "RTMP",
+		"channel_profile": "only_stream_auto_live_tube",
+	  "out_type": {
+	    "hls_out": [
+	      {
+	        "isVod": false,
+	        "legacy_hls_support": true
+	      }
+	      ],
+	    "rtmp_out": 1,
+	    "mp4_out": [
+	      {
+	        "isVod": false
+	      }
+	      ]
+	  },
+	  "autorestart": true
+	},
+
+	"only_archive_auto_live_tube":{
+	  "source_type": "RTMP",
+	  "out_type": {
+	    "hls_out": [
+	      {
+	        "isVod": true,
+	        "legacy_hls_support": true
+	      }
+	      ],
+	    "rtmp_out": 0,
+	    "mp4_out": [
+	      {
+	        "isVod": true
+	      }
+	      ]
+	  },
+	  "autorestart": true
+	},
+
+	"not_Stream_And_Archive_live_tube":{
+		"source_type": "RTMP",
+		"channel_profile": "not_Stream_And_Archive_live_tube",
+	  "out_type": {
+	    "hls_out": [
+	      ],
+	    "rtmp_out": 0,
+	    "mp4_out": [
+	      ]
+	  },
+	  "autorestart": true
+	},
+	
+	"not_hls_live_tube":{
+	    "source_type": "RTMP",
+	    "out_type": {
+		"rtmp_out": 1,
+		"mp4_out": [
+			{
+				"isVod": false
+			},
+			{
+				"isVod": true
+			}
+			]
+		}
+	},
+	
+	"not_mp4_live_tube":{
+	    "source_type": "RTMP",
+	    "out_type": {
+		"rtmp_out": 1,
+		"hls_out": [
+			{
+		      "isVod": false,
+		      "legacy_hls_support": true
+		    },
+		    {
+		      "isVod": true,
+		      "legacy_hls_support": false
+		    }
+			]
+		}
+	},
+	
+	"not_rtmp_live_tube":{
+		"source_type": "RTMP",
+		"out_type": {
+    	"hls_out": [
+      		{
+       		 "isVod": false,
+       		 "legacy_hls_support": true
+      		},
+      		{
+	        "isVod": true,
+	        "legacy_hls_support": false
+	      }
+	      ],
+	    "mp4_out": [
+	        {
+	           "isVod": false
+	        },
+		    {
+		       "isVod": true
+		    }
+		    ]
+	}
+}
+
+}

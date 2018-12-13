@@ -1,0 +1,47 @@
+{
+    "tenant_db": {
+        "tenant_name": "autotest",
+	    "db": "autotest",
+        "info": "autotest",
+        "is_auto":true
+    },
+    "new_live_tenant_db": {
+        "tenant_name": "autotestlive",
+	    "db": "autotestlive",
+        "info": "autotestlive",
+        "is_auto":false
+    },
+    "tenant_db_update": {
+        "tenant_name": "autotestupdate",
+	    "db": "autotestupdate",
+        "info": "autotestupdate",
+        "is_auto":true
+    },
+    "tenant_db_no_auto": {
+        "tenant_name": "noautodb",
+	    "db": "noautodb",
+        "info": "noautodb"
+    },
+    "lack_tenant_name": {
+	    "db": "autotest",
+        "info": "autotest",
+        "is_auto":false
+    },
+    "lack_tenant_db_name": {
+	    "tenant_name": "autotest",
+        "info": "autotest",
+        "is_auto":false
+    },
+    "co_tenant_name": {
+        "tenant_name": "autotest",
+	    "db": "autotest1",
+        "info": "autotest",
+        "is_auto":false
+    },
+    "co_db_name": {
+        "tenant_name": "autotest1",
+	    "db": "autotest",
+        "info": "autotest",
+        "is_auto":false
+    }
+}

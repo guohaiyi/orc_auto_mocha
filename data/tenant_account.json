@@ -1,0 +1,123 @@
+
+{
+    "tenant_admin": {
+        "username": "autotest",
+        "password": "123456",
+        "tenant_name": "autotest"
+    },
+    "new_tenant_admin": {
+        "username": "autotestlive",
+        "password": "123456",
+        "tenant_name": "autotestlive"
+    },
+    "tenant_admin_em_us": {
+        "username": "",
+        "password":"123456",
+        "tenant_name": "autotestupdate"
+    },
+    "tenant_admin_em_pw": {
+        "username": "autotestupdate",
+        "password":"",
+        "tenant_name": "autotestupdate"
+    },
+    "tenant_admin_ten_pw": {
+        "username": "autotestupdate",
+        "password":"123456",
+        "tenant_name": ""
+    },
+    "tenant_admin_no_us": {
+        "password": "123456",
+        "tenant_name": "autotest"
+    },
+    "tenant_admin_no_pw": {
+        "username": "autotest",
+        "tenant_name": "autotest"
+    },
+    "tenant_admin_no_tenant": {
+        "username": "autotestupdate",
+        "password": "123456"
+    },
+    "tenant_admin_no_tenantname": {
+        "username": "autotest",
+        "password": "123456",
+        "tenant_name": "not_autotest"
+    },
+    "tenant_admin_error_pw": {
+        "username": "autotestupdate",
+        "password": "1234567",
+        "tenant_name": "autotestupdate"
+    },
+    "tenant_admin_error_us": {
+        "username": "autotestupdate1",
+        "password": "1234567",
+        "tenant_name": "autotestupdate"
+    },
+    "tenant_admin_error_tenant": {
+        "username": "autotestupdate",
+        "password": "123456",
+        "tenant_name": "autotesterror"
+    },
+    "teant_user": {
+        "user_id": "enduser_qa",
+        "creator": "qa"    
+    },
+    "teant_user2": {
+        "user_id": "enduser_qa2",
+        "creator": "qa"    
+    },
+    "teant_user_no_id": {
+        "creator": "qa"    
+    },
+    "teant_user_no_creator": {
+        "user_id": "endusernocreator"
+    },
+    "teant_DB_no_auto": {
+        "tenant_name": "noautodb",
+        "db": "noautodb",
+        "info": "noautodb",
+        "is_auto":false
+    },
+    "tenant_admin_no_auto": {
+        "username": "noautodb",
+        "password": "123456",
+        "tenant_name": "noautodb",
+        "info":"noautodb"
+    },
+    "teant_user_update": {
+        "user_id": "enduser_qa",
+        "media_type": "LIVE",
+        "media_id": "live_channel_id "
+    },
+    "orchestrator_admin": {
+        "username":"orc_admin",
+        "password":"orc_admin"
+    },
+    "teant_user01": {
+        "user_id": "auto_user1",
+        "creator": "qa"    
+    },
+    "teant_user02": {
+        "user_id": "auto_user2",
+        "creator": "qa"    
+    },
+    "teant_user03": {
+        "user_id": "auto_user3",
+        "creator": "qa"    
+    },
+    "teant_user04": {
+        "user_id": "auto_user4",
+        "creator": "qa"    
+    },
+    "teant_user05": {
+        "user_id": "auto_user5",
+        "creator": "qa"    
+    },
+    "teant_user06": {
+        "user_id": "auto_user6",
+        "creator": "qa"    
+    },
+    "teant_user07": {
+        "user_id": "auto_user7",
+        "creator": "qa"    
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "orc_admin": {
+ 		"username": "orc_admin",
+		"password": "orc_admin"
+    },
+    "new_orc_admin": {
+ 		"username": "orc_admin",
+		"password": "123456"
+    },
+    "orc_admin_error_pw": {
+ 		"username": "orc_admin",
+		"password": "654321"
+    },
+    "orc_admin_not": {
+ 		"username": "orc_admin1",
+		"password": "123456"
+    },
+    "orc_admin_not_name": {
+		"password": "123456"
+    },
+    "orc_admin_not_pw": {
+ 		"username": "orc_admin"
+    },
+	"updata_orc_admin": {
+	"username": "orc_admin",
+	"new_password": "123456",
+	"current_password": "orc_admin"
+	},
+	"initialize_orc_admin": {
+	"username": "orc_admin",
+	"new_password": "orc_admin",
+	"current_password": "123456"
+	},
+	"updata_orc_admin_error_pw": {
+	"username": "orc_admin",
+	"new_password": "123456",
+	"current_password": "654321"
+	},
+	"updata_orc_admin_not_name": {
+	"new_password": "123456",
+	"current_password": "654321"
+	}
+}

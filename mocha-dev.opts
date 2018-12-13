@@ -1,0 +1,3 @@
+src/case
+--timeout 100000
+--recursive

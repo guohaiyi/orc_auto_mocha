@@ -1,0 +1,18 @@
+{
+  "name": "orchestrator-auto-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5",
+    "mocha-bamboo-reporter": "^1.1.1",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "test": "mocha --opts ./mocha-dev.opts",
+    "auto": "mocha --opts ./mocha.opts"
+  },
+  "author": "OMG SZ backend",
+  "license": "ISC"
+}
